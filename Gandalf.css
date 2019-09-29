@@ -1,0 +1,58 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    opacity: 0.5;
+    display: inline-block;
+  }
+  
+  .container:hover {
+    position: relative;
+    text-align: center;
+    color: white;
+    opacity: 1;
+  }
+  
+  .centered {
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 140%;
+    color: #000000;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #EDEAE9;
+    border-radius: 25px;
+    white-space: pre;
+    width: 320px;
+    opacity: 0.8;
+  }
+  
+  .corLaranja {
+     color: #FF5733;
+  }
+  
+  .container:hover .centered {
+    display: none;
+  }
+  
+  .down-center {
+    position: absolute;
+    font-size: 40px;
+    font-weight: normal;
+    font-family: sans-serif;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .container:hover .down-center {
+    position: absolute;
+    font-size: 25px;
+    font-family: sans-serif;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
